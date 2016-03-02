@@ -49,7 +49,7 @@
             $.ajax({
                 url: "/api/file/bson",
                 data: a,
-                contentType: "application/bson",
+                contentType: false,
                 processData: false,
                 type: "POST",
                 success: function (url) {

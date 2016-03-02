@@ -9,10 +9,7 @@ namespace MultiPartSample
     public static class WebApiConfig
     {
         public static void Register(HttpConfiguration config)
-        {
-            // Web API configuration and services
-            config.Formatters.Add(new BsonMediaTypeFormatter());
-            
+        {            
             // Web API routes
             config.MapHttpAttributeRoutes();
 
